@@ -1,18 +1,46 @@
-#body { 
-	background-color: black;
+.here { 
+	background: black;
 	color: white;
+	margin-left: 5px;
+	width: 60%;
+	padding: 10px;
 
  }
 
 #titulo {
 	font-family: fantasy;
-	align: 180px;
 	font-size: 50px;
-
+	color: royalblue;
+	align: center;
 }
 
 #cola {
-	font-family: inherit;
-	align: center;
-	background-color: lightyellow;
+	font-family: cursive;
+	padding: 5px;
+
+}
+
+#pictura {
+	color:  grey;
+	margin: auto;
+	position: absolute;
+	left: 400px;
+	top: 10px;
+
+
+}
+
+#universe {
+	font-family: cursive;
+	font-style: italic;
+	color: red;
+	text-align: center;
+	
+}
+
+#parafo {
+	color: black;
+	width: 60%;
+	background-color: grey;
+	padding: 5px;
 }
