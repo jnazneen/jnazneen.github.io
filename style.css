@@ -20,12 +20,16 @@
 
 }
 
-#pictura {
-	color:  grey;
+.pictura {
+	color:  white;
 	margin: auto;
 	position: absolute;
-	left: 400px;
+	border: 5px solid #555;
+	left: 700px;
 	top: 10px;
+	width: 50%;
+	float: right;
+
 
 
 }
@@ -35,7 +39,7 @@
 	font-style: italic;
 	color: red;
 	text-align: center;
-	
+
 }
 
 #parafo {
