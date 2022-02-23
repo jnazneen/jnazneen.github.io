@@ -21,17 +21,11 @@
 }
 
 .pictura {
-	color:  white;
-	margin: auto;
-	position: absolute;
 	border: 5px solid #555;
-	left: 700px;
-	top: 10px;
-	width: 50%;
-	float: right;
-
-
-
+	width: 500px;
+	height: 450px;
+	overflow-y: hidden;
+	
 }
 
 #universe {
