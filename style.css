@@ -21,12 +21,16 @@
 	font-size: 20px;
 	font-weight: bold;
 	text-align: center;
-	z-index: 2;
+	
 
 }
 
+.galaxy {
+	width:  100%;
+	height: 100%;
+}
+
 .pictura {
-	border: 5px solid #555;
 	width: 30%;
 	height: 50%;
 	position: relative;
@@ -61,24 +65,24 @@
 	z-index: 1;
 }
 
-.galaxy {
-	width: 100px;
-}
 
 .color-1 {
-	width:  30%;
+	width:  50%;
 	height: 60%;
 	position: relative;
-	overflow-x: hidden;
 	padding-top: 20px;
 	float: left;
+	z-index: 1;
+
 }
 
 .color-2 { 
 	width:  30%;
 	right:  0;
 	position: relative;
-	float:  right;
+	float:  right; 
+	right: 0px;
+
 
  }
 
