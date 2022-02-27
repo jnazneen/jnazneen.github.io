@@ -2,8 +2,9 @@
 	background: black;
 	color: white;
 	margin-left: 5px;
-	width: 60%;
+	width: 50%;
 	padding: 10px;
+	position: relative;
 
  }
 
@@ -11,20 +12,29 @@
 	font-family: fantasy;
 	font-size: 50px;
 	color: royalblue;
-	align: center;
+	text-align: center;
 }
 
 #cola {
 	font-family: cursive;
 	padding: 5px;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	z-index: 2;
 
 }
 
 .pictura {
 	border: 5px solid #555;
-	width: 500px;
-	height: 450px;
-	overflow-y: hidden;
+	width: 30%;
+	height: 50%;
+	position: relative;
+	right: 5px;
+	top:  1px;
+	left:  1000px;
+	bottom:  500px;
+
 	
 }
 
@@ -42,3 +52,38 @@
 	background-color: grey;
 	padding: 5px;
 }
+
+#list {
+	font-family: fantasy;
+	font-style: oblique;
+	color: blue;
+	text-align: center;
+	z-index: 1;
+}
+
+.galaxy {
+	width: 100px;
+}
+
+.color-1 {
+	width:  30%;
+	height: 60%;
+	position: relative;
+	overflow-x: hidden;
+	padding-top: 20px;
+	float: left;
+}
+
+.color-2 { 
+	width:  30%;
+	right:  0;
+	position: relative;
+	float:  right;
+
+ }
+
+
+ li {
+ 	font-family: cursive;
+ 	font-size: 18px;
+ }
